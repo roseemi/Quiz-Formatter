@@ -12,7 +12,7 @@ A new, formatted document will be saved in the same directory as the original, n
 
 *Note that this script will likely not flawlessly format your document, but it will do most of the heavy lifting.*
 
-Works best with multiple choice quizes.
+Works best with multiple choice quizzes.
 
 	• This script assumes that all questions end with either a "?" or a ":".
 	• Questions that do not end in "?" or ":" will not be bolded
@@ -28,3 +28,26 @@ To use the script:
 	• Type "python [name of this file].py"
         ex. "C:\Users\emily\OneDrive\Documents>python format.py"
 	• Follow the instructions
+
+# Examples
+
+UNFORMATTED DOCUMENT:
+
+![Picture of an unformatted document.](https://github.com/roseemi/Quiz-Formatter/blob/main/images/Original_Document.png)
+
+
+FORMATTED DOCUMENT USING THIS SCRIPT:
+
+![Picture of formated document.](https://github.com/roseemi/Quiz-Formatter/blob/main/images/Formatted_Document.png)
+
+
+UNFORMATTED DOCUMENT that DOES NOT meet criteria to format correctly:
+
+![Picture of an unformated document.](https://github.com/roseemi/Quiz-Formatter/blob/main/images/Original_Document_2.png)
+
+
+FORMATTED DOCUMENT USING THIS SCRIPT:
+
+![Picture of an improperly formated document.](https://github.com/roseemi/Quiz-Formatter/blob/main/images/Formatted_Document_2.png)
+
+The issue in this case: The script assumes that "?" is always the end of a sentence. Because the PHP answers use question marks, the formatting fails.
